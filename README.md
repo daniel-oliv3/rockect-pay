@@ -30,7 +30,7 @@ git --version
 git config --global user.name "Daniel Oliveira"
 ```
 ```
-git config --global user.email "danielsapup3@gmail.com"
+git config --global user.email "xxxxxxxx@gmail.com"
 ```
 
 **Git Cli**
