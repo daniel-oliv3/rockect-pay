@@ -36,7 +36,7 @@ git config --global user.name "Daniel Oliveira"
 ```
 git config --global user.email "xxxxxxxx@gmail.com"
 ```
-- Clonar o repositorio inicial
+- Clonar o repositorio inicial boilerplate
 ```
 gh repo clone rocketseat-education/explorer-lab-01
 ```
