@@ -85,6 +85,16 @@ npm run dev
 **Criado pelo navegador (Browser)**
 - É uma interface (API) usada no navegador
 
+**DevTools**
+- Através das ferramentas do desenvolvedor `Dev Tools`, observaremos a DOM.
+```js
+//Objeto global presente em qualquer página no navegador
+window
+
+//Representação do documento
+document
+```
+
 **Primeiros passos na DOM**
 - Pegar elementos HTML
 - Substituição de atributo
