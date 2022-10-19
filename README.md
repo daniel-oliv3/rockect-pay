@@ -51,6 +51,15 @@ gh repo clone rocketseat-education/explorer-lab-01
 - Site: https://nodejs.org/en/
 
 
+**Vite**
+- Instalar e configurar
+- Site: https://vitejs.dev/
+
+```
+npm  create vite@latest
+```
+
+
 ### Figma
 - Projeto: https://www.figma.com/file/bTxGv6aemqQ0yKzTI5P2k7/Explorer-Lab-%2301-(Copy)?node-id=0%3A1
 
