@@ -2,6 +2,10 @@
 ### RocketPay
 ##
 
+##
+### Front-End
+##
+
 
 ### Pré-Requisitos.
 
@@ -22,6 +26,7 @@ HTML, CSS, JavaScript, DOM, Node.
 - Windows
 - Instalar e configurar
 - Site: https://git-scm.com/downloads
+
 
 **Git Hub**
 - Verificar versão do git
@@ -70,10 +75,23 @@ npm run dev
 ### Figma
 - Projeto: https://www.figma.com/file/bTxGv6aemqQ0yKzTI5P2k7/Explorer-Lab-%2301-(Copy)?node-id=0%3A1
 
+### O que é DOM
+**Document Object Model**
+- Modelagem do documento como objeto javascript
 
-##
-### Front-End
-##
+**Representação do HTML em objetos javascript**
+- Atributos (Propriedades) e métodos (Funcionalidades)
+
+**Criado pelo navegador (Browser)**
+- É uma interface (API) usada no navegador
+
+**Primeiros passos na DOM**
+- Pegar elementos HTML
+- Substituição de atributo
+- Disponibilizando funções globais
+
+
+
 
 
 
