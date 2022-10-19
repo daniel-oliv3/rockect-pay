@@ -5,7 +5,7 @@
 
 ### Pré-Requisitos.
 
-HTML, CSS, JavaScript, DOM.
+HTML, CSS, JavaScript, DOM, Node.
 
 
 ### Ferramentas do programador.
@@ -13,6 +13,10 @@ HTML, CSS, JavaScript, DOM.
 **Visual Studio Code**
 - Instalar e configurar
 - Site: https://code.visualstudio.com/download
+- Extenções
+    - `Material Icons Theme`
+    - `Omni Theme`
+    - `Prettier - Code Formatter` 
 
 **Git Bash**
 - Windows
@@ -32,10 +36,15 @@ git config --global user.name "Daniel Oliveira"
 ```
 git config --global user.email "xxxxxxxx@gmail.com"
 ```
+- Clonar o repositorio inicial
+```
+gh repo clone rocketseat-education/explorer-lab-01
+```
 
 **Git Cli**
 - Instalar e configurar
 - Site: https://cli.github.com/
+
 
 **Node.Js**
 - Instalar e configurar LTS
@@ -83,7 +92,7 @@ git config --global user.email "xxxxxxxx@gmail.com"
 
 
 ##
-### -----------------------------------------------------
+### 
 ##
 
 - By:  **Daniel Oliveira**
