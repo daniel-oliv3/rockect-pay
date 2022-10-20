@@ -196,9 +196,10 @@ const next = 'aBC'.replace(/a/, 'A');
 ```
 
 **Cheatsheet**
+
 Básico
 - `/ expression / flags`
-  Exmplo: `/[A-Z]+/g`
+  Exemplo: `/[A-Z]+/g`
 - `/` Usar caracteres especiais
   Exmplo: `/ Oi\?\*\\/`
 - `()` Agrupador
@@ -210,7 +211,7 @@ Básico
 Colchetes
 - `[XYZ]` Qualquer um, x, y, z
 - `[J-Z]` Qualquer caracter entre J e Z
-- `[^xyz]` nENHUM X, Y, Z
+- `[^xyz]` Nenhum X, Y, Z
 
 Classes de caracteres
 - `\w` Palavra `\d` dígito `\s` espaços em branco(tabs, quebras de linha)
@@ -222,9 +223,22 @@ Classes de caracteres
 - `{n}` n ocorrências
 - `{min, max}` Mínima / Máxima ocorrências
 
+Testando Expressões
+
+Podemos testar de diversas formas, desde diretamente no código, ou:
+
+- Direto no Editor (VSCODE)
+  Search and Replace
+- Online
+  RegExr: Learn, Build, & Test RegEx
 
 
+Referências
 
+- https://www.youtube.com/watch?v=sa-TUpSx1JA
+- https://www.fireship.io/lessons/regex-cheat-sheet-js/
+- https://www.debuggex.com/cheatsheet/regex/javascript
+- https://www.debuggex.com/cheatsheet/regex/javascript
 
 
 
