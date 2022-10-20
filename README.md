@@ -1,10 +1,10 @@
 <h1 align="center"> RocketPay </h1>
 
+
+
 ### Pré-Requisitos.
 
 HTML, CSS, JavaScript, DOM, Node.
-
-<h1 align="center"> Front-End </h1>
 
 ### Ferramentas do programador.
 
@@ -109,6 +109,15 @@ npm install imask
 - import
 ```
 import IMask from 'imask';
+```
+- Simple use case:
+```js
+//Exemplo documentação
+var element = document.getElementById('selector');
+var maskOptions = {
+  mask: '+{7}(000)000-00-00'
+};
+var mask = IMask(element, maskOptions);
 ```
 
 
