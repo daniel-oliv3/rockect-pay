@@ -101,13 +101,21 @@ document
 - Disponibilizando funções globais
 
 
+##
+
+**Imask.js**
+- Site: https://imask.js.org/guide.html
+- http://vanilla-js.com/
 
 
-
-
-
-
-
+- Instalar
+```
+npm install imask
+```
+- import
+```
+import IMask from 'imask';
+```
 
 
 
