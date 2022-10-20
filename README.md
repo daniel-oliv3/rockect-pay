@@ -147,10 +147,25 @@ var blocksMask = IMask(element, {
 });
 ```
 
-- Pegar so o '22' de 2022
+- Pegar o '22' de 2022
 ```js
 String(new Date().getFullYear()).slice(2);
 ```
+**Expressões regulares**
+- Regex com JavaScript
+
+Expressões regulares
+
+Também conhecida como `Regular Expression` ou ` Regex` é uma tecnologia usada para buscar padrões dentro de textos e funciona em diversas linguagens
+
+- Exemplo: Busque por todos os caracteres numéricos dentro de algum texto
+
+Como pensar ?
+
+Existe uma maneira correta de pensar ao utilizar essa tecnologia para buscar de padrões
+- Leitura da esquerda para direita
+- Ler um caractere de cada vez, um após o outro
+- Conhecer os caracteres reservados da tecnologia
 
 
 
