@@ -120,9 +120,37 @@ var maskOptions = {
 var mask = IMask(element, maskOptions);
 ```
 
+- Para máscaras aninhadas complexas, há uma opção de blocos disponível:
 
+```js
+//Exemplo de Blocks
+var blocksMask = IMask(element, {
+  mask: 'Ple\\ase fill ye\\ar 19YY, month MM \\and v\\alue VL',
+  lazy: false,  // make placeholder always visible
 
+  blocks: {
+    YY: {
+      mask: '00',
+    },
 
+    MM: {
+      mask: IMask.MaskedRange,
+      from: 1,
+      to: 12
+    },
+
+    VL: {
+      mask: IMask.MaskedEnum,
+      enum: ['TV', 'HD', 'VR']
+    }
+  }
+});
+```
+
+- Pegar so o '22' de 2022
+```js
+String(new Date().getFullYear()).slice(2);
+```
 
 
 
