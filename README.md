@@ -167,11 +167,60 @@ Existe uma maneira correta de pensar ao utilizar essa tecnologia para buscar de 
 - Ler um caractere de cada vez, um após o outro
 - Conhecer os caracteres reservados da tecnologia
 
+- Criando regex no JavaScript
+```js
+//Exemplo
 
+const re = /foo/;
 
+const re = new RegExp(/foo/);
+```
 
+- Funções usadas em Strings
 
+Existem diversas maneiras de usar expressões regulares em uma string no javaScript. Abaixo, vamos verificar 3
 
+```js
+//Agrupa os padrões em um array
+const matches = 'aBC'.match(/[A-Z]/g);
+//Output: Array [B, C]
+
+//Pesquisa se existe ou não o padrão
+const index = 'aBC'.search(/[A-Z]/);
+//Output: 1
+
+//Substitui os padrões por novo valor
+const next = 'aBC'.replace(/a/, 'A');
+//Output: ABC
+
+```
+
+**Cheatsheet**
+Básico
+- `/ expression / flags`
+  Exmplo: `/[A-Z]+/g`
+- `/` Usar caracteres especiais
+  Exmplo: `/ Oi\?\*\\/`
+- `()` Agrupador
+- `|` OU lógico
+- `Fala Dev` pesquisa extra
+- `^Fala` Start of the string
+- `Dev$` End of the string
+
+Colchetes
+- `[XYZ]` Qualquer um, x, y, z
+- `[J-Z]` Qualquer caracter entre J e Z
+- `[^xyz]` nENHUM X, Y, Z
+
+Classes de caracteres
+- `\w` Palavra `\d` dígito `\s` espaços em branco(tabs, quebras de linha)
+- `\w` NÃO palavra `\D` NÃO dígito `\S` NÃO espaços em branco
+- `\t` tabs, `\n` quebra de linha
+- `.` Qualquer caracter (exceto nova linha)
+- `?` Zero ou uma ocorrências
+- `*` Zero ou múltiplas ocorrências
+- `{n}` n ocorrências
+- `{min, max}` Mínima / Máxima ocorrências
 
 
 
