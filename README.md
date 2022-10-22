@@ -244,10 +244,10 @@ Referências
 ```txt
 Expressões regulares.
 
-Visa: ^4\d{0, 15}
+Visa: /^4\d{0,15}/
 Inicia com 4 seguido de mais 15 dígitos
 
-Mastercard:
+Mastercard: /(^5[1-5]\d{0,2}|^22[2-9]\d|^2[3-7]\d{0,2})\d{0,12}/
 Inicia com 5, seguido de um dígito entre 1 e 5, seguido de mais 2 dígitos
 Ou
 

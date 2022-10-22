@@ -79,7 +79,7 @@ const cardNumberPattern = {
       return number.match(item.regex);
     });
 
-    console.log(foundMask);
+    //console.log(foundMask);
 
     return foundMask;
   },
