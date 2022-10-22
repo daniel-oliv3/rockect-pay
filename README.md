@@ -242,23 +242,27 @@ Referências
 
 
 ```txt
-Expressões regulares.
+Expressões regulares
 
-Visa: /^4\d{0,15}/
-Inicia com 4 seguido de mais 15 dígitos
+Visa: 
+Inicia com 4 seguido de mais 15 dígitos.
 
-Mastercard: /(^5[1-5]\d{0,2}|^22[2-9]\d|^2[3-7]\d{0,2})\d{0,12}/
-Inicia com 5, seguido de um dígito entre 1 e 5, seguido de mais 2 dígitos
-Ou
+Mastercard: 
+Inicia com 5, seguido de um dígito entre 1 e 5, seguido de mais 2 dígitos.
 
-Inicia com 22, seguido de um dígito entre 2 e 9, seguido de mais 1 dígitos
-Ou
+Inicia com 22, seguido de um dígito entre 2 e 9, seguido de mais 1 dígitos.
 
-Inicia com 2, seguido de um dígito entre 3 e 7, seguido de mais 2 dígitos seguido de mais 12 dígitos
+Inicia com 2, seguido de um dígito entre 3 e 7, seguido de mais 2 dígitos seguido de mais 12 dígitos.
+```
+**Visa**:
+```
+/^4\d{0,15}/
 ```
 
-
-
+**Mastercard**:
+```
+/(^5[1-5]\d{0,2}|^22[2-9]\d|^2[3-7]\d{0,2})\d{0,12}/
+```
 
 
 
