@@ -200,7 +200,7 @@ const next = 'aBC'.replace(/a/, 'A');
 Básico
 - `/ expression / flags`
   Exemplo: `/[A-Z]+/g`
-- `/` Usar caracteres especiais
+- `\` Usar caracteres especiais
   Exmplo: `/ Oi\?\*\\/`
 - `()` Agrupador
 - `|` OU lógico
@@ -238,9 +238,24 @@ Referências
 - https://www.youtube.com/watch?v=sa-TUpSx1JA
 - https://www.fireship.io/lessons/regex-cheat-sheet-js/
 - https://www.debuggex.com/cheatsheet/regex/javascript
-- https://www.debuggex.com/cheatsheet/regex/javascript
 
 
+
+```txt
+Expressões regulares.
+
+Visa: ^4\d{0, 15}
+Inicia com 4 seguido de mais 15 dígitos
+
+Mastercard:
+Inicia com 5, seguido de um dígito entre 1 e 5, seguido de mais 2 dígitos
+Ou
+
+Inicia com 22, seguido de um dígito entre 2 e 9, seguido de mais 1 dígitos
+Ou
+
+Inicia com 2, seguido de um dígito entre 3 e 7, seguido de mais 2 dígitos seguido de mais 12 dígitos
+```
 
 
 
