@@ -78,14 +78,32 @@ const cardNumberPattern = {
     const foundMask = dynamicMasked.compiledMasks.find(function(item) {
       return number.match(item.regex);
     });
-
     //console.log(foundMask);
-
     return foundMask;
   },
 }
 
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern);
+
+
+
+
+/* 3*/
+const addButton = document.querySelector("#add-card");
+addButton.addEventListener("click", () => {
+  //console.log("Opa, você clicou no botão!");
+  alert("Cartão adicionado!");
+});
+
+document.querySelector("form").addEventListener("submit", (evento) => {
+  event.preventDefault();
+});
+
+
+const cardHolder = document.querySelector("#card-holder");
+cardHolder.addEventListener("input", () => {
+  const ccHolder = document.querySelector(".cc-holder .value");
+});
 
 
 
